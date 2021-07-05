@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+}
+
+
+#header {
+    height: 40vh;
+    background-image: url(images/25336.jpg);
+    background-size: cover;
+
+    color: white;
+
+    padding: 100px; 
+    /* padding and text align: center  makes all the element inside div centered. */
+    text-align: center;
+}
+
+
+/* nested id selector */
+#header #read_more_btn{
+    padding: 20px 30px;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(blue, rgb(90, 0, 207))
+}
+
+#header #read_more_btn:hover{
+    background: white;
+    color: black;
+}
+
+#second-para {
+    height: 250px;
+    padding: 40px;
+    /* background: red; */
+
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.half-width {
+    display: flex;
+    width: 50%;
+    padding: 0 5%;
+    text-align: justify;
+}
+
+#third-para {
+    background: gray;
+    height: 500px;
+    padding: 50px;
+
+    display: flex;
+}
+
+.one-third {
+    height: 520px;
+    background: white;
+    width: 33%;
+    margin-left: 2%
+}
+
+.one-third img {
+    width: 100%;
+    height: 220px;
+}
+
+.image-content {
+    display: block;
+}
+
+.image-content h2, p {
+    padding: 2%;
+    width: 90%;
+    margin: 0;
+    text-align: center;
+}
+
+#fourth-para {
+    height: 300px;
+    padding: 4%;
+    text-align: center;
+}
+
+#contact-us {
+    background: gray;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+#about-our-company {
+    background:rgb(73, 64, 85);
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.dark {
+    background: black;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0;
+    
+}
