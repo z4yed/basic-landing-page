@@ -39,7 +39,7 @@ body {
 
 .title {
     text-align: center;
-    margin: 0;
+    margin-top: 0;
 }
 
 .flex {
@@ -110,5 +110,5 @@ body {
     width: 50%;
     text-align: center;
     margin: 0;
-    
+
 }
